@@ -1,6 +1,6 @@
 # svelte-todo
 
-This is a Todo List app created with SvelteKit using the [James Q Quick tutorial](https://www.youtube.com/watch?v=YipaPr4Aex8).  It keeps the todo list in local storage (for now) and will start a fresh list on window.
+This is a Todo List app created with SvelteKit using the [James Q Quick tutorial](https://www.youtube.com/watch?v=YipaPr4Aex8).  It keeps the todo list in local storage (for now) and will start a fresh list on window refresh.
 
 ## Developing
 
@@ -22,3 +22,7 @@ npm run build
 ```
 
 > You can preview the built app with `npm run preview`, regardless of whether you installed an adapter. This should _not_ be used to serve your app in production.
+
+## Tailwind
+
+This app is configured for Tailwind 2 and *not* Tailwind 3.
