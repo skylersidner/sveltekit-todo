@@ -1,10 +1,10 @@
 # svelte-todo
 
-This is a Todo List app created with SvelteKit using the [James Q Quick tutorial](https://www.youtube.com/watch?v=YipaPr4Aex8).  It keeps the todo list in local storage (for now) and will start a fresh list on window refresh.
+This is a Todo List app created with SvelteKit using the [James Q Quick tutorial](https://www.youtube.com/watch?v=YipaPr4Aex8).  It keeps the todo list in local storage (for now) and will start a fresh list on window.
 
 ## Developing
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server on localhost:3000:
 
 ```bash
 npm run dev
@@ -12,7 +12,7 @@ npm run dev
 # or start the server and open the app in a new browser tab
 npm run dev -- --open
 ```
-https://www.youtube.com/watch?v=YipaPr4Aex8
+
 ## Building
 
 Before creating a production version of your app, install an [adapter](https://kit.svelte.dev/docs#adapters) for your target environment. Then:
