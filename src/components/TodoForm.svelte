@@ -4,8 +4,8 @@
     let todo = '';
     
     const handleSubmit = () => {
-        addTodo(todo); // add to List
-        todo = ''; // rest List
+        addTodo(todo);
+        todo = '';
         console.log(todo);
     }
 </script>
